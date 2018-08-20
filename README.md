@@ -19,6 +19,7 @@ Number of coefficients      : 1399
 
 Starting Accelerated Gradient (FISTA)
 
+
 --------------------------------------------------------
 
 Tuning step size. First iteration could take longer than subsequent iterations.
