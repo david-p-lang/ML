@@ -8,7 +8,7 @@ let testData = try MLDataTable(contentsOf: URL(fileURLWithPath:"/Users/davidlang
 trainData = trainData.dropMissing()
 
 let paramters = MLLogisticRegressionClassifier.ModelParameters(validationData: trainData,
-                                                               maxIterations: 100,
+                                                               maxIterations: 3,
                                                                l1Penalty: 8.0,
                                                                l2Penalty: 0.0,
                                                                stepSize: 4.0,
